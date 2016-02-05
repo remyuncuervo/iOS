@@ -2,6 +2,7 @@
 
 import UIKit
 
+
 for numero in 0 ... 100{
     switch numero{
     case 0:
