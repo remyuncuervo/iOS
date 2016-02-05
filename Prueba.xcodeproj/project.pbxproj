@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52B558881C64461800D15671 /* Prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Prueba.app; path = "/Users/macbookpro/Desktop/iOS/Prueba/build/Debug-iphoneos/Prueba.app"; sourceTree = "<absolute>"; };
-		52B558A11C64461800D15671 /* PruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PruebaTests.xctest; path = "/Users/macbookpro/Desktop/iOS/Prueba/build/Debug-iphoneos/PruebaTests.xctest"; sourceTree = "<absolute>"; };
-		52B558AC1C64461800D15671 /* PruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PruebaUITests.xctest; path = "/Users/macbookpro/Desktop/iOS/Prueba/build/Debug-iphoneos/PruebaUITests.xctest"; sourceTree = "<absolute>"; };
-		52B558BF1C644A7300D15671 /* Juego de memoria - semana 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Juego de memoria - semana 2.playground"; sourceTree = "<group>"; };
+		52B558BF1C644A7300D15671 /* Juego_de_memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Juego_de_memoria.playground; sourceTree = "<group>"; };
+		52FBB1771C6454AB006BBD30 /* Prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FBB1781C6454AB006BBD30 /* PruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FBB1791C6454AB006BBD30 /* PruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,10 @@
 		52B5587F1C64461800D15671 = {
 			isa = PBXGroup;
 			children = (
-				52B558BF1C644A7300D15671 /* Juego de memoria - semana 2.playground */,
+				52B558BF1C644A7300D15671 /* Juego_de_memoria.playground */,
+				52FBB1771C6454AB006BBD30 /* Prueba.app */,
+				52FBB1781C6454AB006BBD30 /* PruebaTests.xctest */,
+				52FBB1791C6454AB006BBD30 /* PruebaUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +82,7 @@
 			);
 			name = Prueba;
 			productName = Prueba;
-			productReference = 52B558881C64461800D15671 /* Prueba.app */;
+			productReference = 52FBB1771C6454AB006BBD30 /* Prueba.app */;
 			productType = "com.apple.product-type.application";
 		};
 		52B558A01C64461800D15671 /* PruebaTests */ = {
@@ -97,7 +100,7 @@
 			);
 			name = PruebaTests;
 			productName = PruebaTests;
-			productReference = 52B558A11C64461800D15671 /* PruebaTests.xctest */;
+			productReference = 52FBB1781C6454AB006BBD30 /* PruebaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		52B558AB1C64461800D15671 /* PruebaUITests */ = {
@@ -115,7 +118,7 @@
 			);
 			name = PruebaUITests;
 			productName = PruebaUITests;
-			productReference = 52B558AC1C64461800D15671 /* PruebaUITests.xctest */;
+			productReference = 52FBB1791C6454AB006BBD30 /* PruebaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
