@@ -51,6 +51,7 @@
 		52B558AC1C64461800D15671 /* PruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B558B01C64461800D15671 /* PruebaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaUITests.m; sourceTree = "<group>"; };
 		52B558B21C64461800D15671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B558BE1C64484100D15671 /* Reto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Reto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		52B5587F1C64461800D15671 = {
 			isa = PBXGroup;
 			children = (
+				52B558BE1C64484100D15671 /* Reto.playground */,
 				52B5588A1C64461800D15671 /* Prueba */,
 				52B558A41C64461800D15671 /* PruebaTests */,
 				52B558AF1C64461800D15671 /* PruebaUITests */,
